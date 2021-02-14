@@ -17,13 +17,14 @@
   "bugs": {
     "url": "https://github.com/Jonny-exe/web-go-js-template/issues"
   },
+  "homepage": "https://github.com/Jonny-exe/web-go-js-template#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "homepage": "https://github.com/Jonny-exe/web-go-js-template#readme",
-  "devDependencies": {
+  "dependencies": {
+    "husky": "^5.0.9",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0"
   }
